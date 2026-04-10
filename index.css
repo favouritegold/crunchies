@@ -287,11 +287,11 @@ body{
 .pastries{
     background-image: url(./Pastries.jpg);
 
-    width: 120%;
+    width: 80%;
     background-size: cover;
     height: 200px;
     border-bottom: 30px;
-    margin-right: 100px;
+    margin-left: 40px;
      border-radius: 20px;
 }
 .pastries p{

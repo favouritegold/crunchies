@@ -1,0 +1,425 @@
+@font-face{
+    font-family: "poppinsBold";
+    src: url(./font/Poppins-Bold.ttf);
+}
+@font-face{
+    font-family: "poppinsRegular";
+    src: url(./font/Poppins-Regular.ttf);
+}
+@font-face{
+    font-family: "poppinsBold";
+    src: url(./font/Poppins-Bold.ttf);
+}
+@font-face{
+    font-family: "poppinsRegular";
+    src: url(./font/Poppins-Regular.ttf);
+}
+ @font-face{
+    font-family: "poppinsBold";
+    src: url(./font/Poppins-Bold.ttf);
+}
+@font-face{
+    font-family: "poppinsRegular";
+    src: url(./font/Poppins-Regular.ttf);
+}
+
+
+
+body{
+    margin: 35px;
+}
+.neche{
+    display: grid;
+    grid-template-columns: 150px 150px auto 150px;
+}
+
+.neche0{
+    display: grid;
+    grid-template-columns: auto auto;
+    display: none;
+}
+.neche img{
+    width: 50%;
+    cursor: pointer;
+   
+}
+
+.neche0 img{
+    width: 50%;
+    cursor: pointer;
+   
+}
+
+
+.neche3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    margin-left: -30px;
+
+}
+.loc{
+    color: rgba(255, 0, 0, 0.829);
+    margin-right: 20px;
+
+}
+.neche00{
+    display: none;
+}
+.neche4 span b{
+    color: red;
+    font-size: 17px;
+}
+
+.neche4{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.neche4 a{
+    color: #374151;
+    text-decoration: none;
+    padding: 15px;
+    margin: 10px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.neche4 span{
+    border-radius:50px ;
+    border: 1px solid red;
+    padding: 15px;
+}
+.neche4 a:hover{
+    color: red;
+    background-color: #c3cbd9;
+    border-radius: 5px;
+
+
+}
+.neche4 .home{
+    color: red;
+ 
+}
+
+.heart{
+    color: red;
+}
+
+.icon{
+    color: red;
+    margin-left: 120px;
+    margin-top: 30px;
+}
+
+
+@media(max-width:768px){
+    .neche0{
+        display: block;
+        display: grid;
+    grid-template-columns: auto auto;
+    }
+    .neche00{
+        display: block;
+        display: grid;
+    grid-template-columns: auto 110px 110px;
+    }
+    .neche{
+        display: none;
+    }
+    .neche3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+     margin-top: 25px;
+   
+}
+.neche3 b{
+    margin-left: -20px;
+   
+}
+
+}
+.weclome{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+ 
+ .wec h2{
+    color: red;
+    margin-top: 150px;
+    font-family: poppinsRegular;
+ }
+ .wec b{
+    color: red;
+    font-size: 100px;
+    margin-top: 30px;
+    font-family: "poppinsBold";
+    line-height: 3cm;
+ }
+ .how{
+     color: red;
+     font-size: 20px;
+     font-family: poppinsBold;
+ }
+ .pick{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 23px;
+ }
+ .car{
+    padding: 40px;
+    background-color: red;
+    color: black;
+    border-radius: 20px;
+    width: 50%;
+    height: 50px;
+    margin-top: -20px;
+    margin-right: 40px;
+ }
+ .car p{
+    color: white;
+    font-size: 20px;
+    font-family: poppinsRegular;
+    margin-top: 10px;
+
+ }
+ .pickup{
+   font-size: 40px;
+   color: white;
+   margin-right: 20px;
+ }
+ .bag{
+     padding: 40px;
+    background-color: red;
+    color: black;
+    border-radius: 20px;
+    width: 10%;
+    height: 50px;
+    margin-top: -20px;
+    margin-right: 900px;
+ }
+ .shopbag{
+     font-size: 40px;
+   color: white;
+   margin-left: 20%;
+ }
+ .bag p{
+       color: white;
+    font-size: 20px;
+    font-family: poppinsRegular;
+    margin-top: 10px;
+ }
+ .box5 img{
+    width: 200%;
+    margin-left: -310px;
+    margin-top: 30px;
+    font-weight: 400px ;
+    font-size: 100px;
+
+ }
+ .foodie h3{
+    
+    text-align: center;
+    font-size: 50px;
+    color: red;
+    margin-left: 50px;
+    margin-top: 120px;
+    font-family: poppinsBold;
+ }
+ .line{
+    width: 10%;
+    border-radius: 20px;
+    border-bottom: 10px solid red;
+    margin-left: 600px;
+    margin-top: -50px;
+    font-size: 300px;
+ }
+ .food{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+   
+ }
+
+ .food{
+
+    background-color: white;
+    width: 80%;
+    height: 200px;
+    margin-top: 70px;
+    margin-left: 90px;
+
+ }
+.rice{
+    background-image: url(./rice.jpg);
+
+    width: 120%;
+    background-size: cover;
+    height: 200px;
+    border-bottom: 30px;
+    margin-left: 50px;
+    border-radius: 20px;
+}
+.rice p{
+     color: white;
+    font-size: 30px;
+    font-family: "poppinsRegular"; 
+    margin-top: 150px;
+}
+.protein{
+   background-image: url(./Protein.jpg);
+
+    width: 70%;
+    background-size: cover;
+    height: 200px;
+    border-bottom: 30px;
+    margin-left: 100px;
+     border-radius: 20px;
+}
+.protein p{
+    color: white;
+    font-size: 30px;
+    font-family: "poppinsRegular"; 
+    margin-top: 150px;
+
+    
+}
+.pastries{
+    background-image: url(./Pastries.jpg);
+
+    width: 120%;
+    background-size: cover;
+    height: 200px;
+    border-bottom: 30px;
+    margin-right: 100px;
+     border-radius: 20px;
+}
+.pastries p{
+     color: white;
+    font-size: 30px;
+    font-family: "poppinsRegular"; 
+    margin-top: 150px;
+
+}
+
+ @media (max-width:768px){
+
+    .weclome{
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.box5 img{
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 30px;
+
+ }
+ .wec b{
+    color: red;
+    font-size: 60px;
+    margin-top: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+ 
+.weclome1{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+ 
+ .wec h2{
+    color: red;
+    margin-top: 30px;
+    font-family: poppinsRegular;
+    font-size:20px;
+    margin-left: 30px;
+ }
+ .wec b{
+    color: red;
+    font-size: 15px;
+    margin-top: -100px;
+    font-family: "poppinsBold";
+    margin-left: 50px;
+
+ }
+ .how{
+     color: red;
+     font-size: 20px;
+     font-family: poppinsBold;
+ }
+ .pick{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-right: 30%;
+ }
+ .car{
+    padding: 40px;
+    background-color: red;
+    color: black;
+    border-radius: 20px;
+    width: 40%;
+    height: 50px;
+    margin-top: -20px;
+    margin-right: 70%;
+ }
+ .car p{
+    color: white;
+    font-size: 20px;
+    font-family: poppinsRegular;
+    margin-top: 10px;
+
+ }
+ .pickup{
+   font-size: 40px;
+   color: white;
+   margin-left: 20px;
+ }
+ .bag{
+     padding: 40px;
+    background-color: red;
+    color: black;
+    border-radius: 20px;
+    width: 30%;
+    height: 50px;
+    margin-top: -20px;
+    margin-right: 100px;
+ }
+ .shopbag{
+     font-size: 40px;
+   color: white;
+   margin-left: 20%;
+ }
+ .bag p{
+       color: white;
+    font-size: 20px;
+    font-family: poppinsRegular;
+    margin-top: 10px;
+ }
+ .box5 img{
+    width: 200%;
+    margin-left: -310px;
+    margin-top: 40px;
+    font-weight: 400px ;
+    font-size: 100px;
+
+ }
+ .foodie h3{
+    
+    text-align: center;
+    font-size: 30px;
+    color: red;
+    margin-left: 10px;
+    margin-top: 50px;
+    font-family: poppinsBold;
+ }
+ .line{
+    width: 40%;
+    border-radius: 20px;
+    border-bottom: 10px solid red;
+  
+ }
+
+    
+ }
+

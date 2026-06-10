@@ -221,6 +221,9 @@ body{
     font-family: poppinsRegular;
     margin-top: 10px;
  }
+ .box5{
+    width: 45%;
+ }
  .box5 img{
     width: 1000%;
     margin-left:-600px;
@@ -647,6 +650,7 @@ body{
 
 
  @media (max-width:768px){
+
     .all{
         background-color: pink;
         display: grid;
@@ -674,6 +678,10 @@ body{
     grid-template-columns: auto;
 }
 
+.box5{
+    width: 100%;
+    text-align: center;
+ }
 .box5 img{
     width: 100%;
     margin-left: 0px;
@@ -892,7 +900,7 @@ body{
      .okay{
         display: grid;
         grid-template-columns: auto ;
-        
+
     }
     .about h1{
         background-color: white;
